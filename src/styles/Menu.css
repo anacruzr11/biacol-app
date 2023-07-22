@@ -1,0 +1,70 @@
+.image {
+    width: 100%;
+    height: 300px;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(150deg, rgba(199, 196, 13, 0.5),  rgba(13, 106, 199, 0.7), rgba(199, 13, 13, 0.5)), url(https://elestimulo.com/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-03-at-15.05.28-2.jpeg);
+}
+
+.col {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.titulo {
+    padding-bottom: 3%;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 3.2em;
+}
+
+.seccion2 {
+    padding: 3%;
+}
+
+.platos {
+    margin-top: 20px;
+}
+
+.titulo1 {
+    justify-content: center;
+    padding: 3%;
+    margin-top: 6%;
+}
+
+.reserInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.texts {
+    padding: 30px;
+}
+
+p {
+    margin: 0%;
+    display: block;
+}
+
+.contact-info {
+    padding: 10px;
+    align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+    .seccion1 {
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 768px) {
+    .reserInfo {
+      flex-direction: column;
+    }
+  }
