@@ -2,7 +2,7 @@ const ReservasPage = () => {
   return (
     <>
       <header className="text-center">
-        <h1>Reserva con nosotros</h1>
+        <h1 className='titulo'>Reserva con nosotros</h1>
       </header>
       <main className="row">
         <div className="form col-sm-7">

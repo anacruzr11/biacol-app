@@ -20,6 +20,7 @@
     line-height: 1.5;
     font-weight: 400;
     font-size: 3.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .seccion2 {
@@ -28,6 +29,7 @@
 
 .platos {
     margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .titulo1 {
@@ -47,9 +49,12 @@
     padding: 30px;
 }
 
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 p {
-    margin: 0%;
-    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-info {

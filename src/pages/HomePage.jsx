@@ -6,7 +6,7 @@ const HomePage = () => {
       <main className='informacion'>
          <div className="description col-5">
            <div className="titles">
-             <h1 className="firtsTitle">Biacol</h1>
+             <h1 className='titulo'>Biacol</h1>
              <h2 className="subtitle">La mejor comida colombiana</h2>
           </div>
          <div className="text">

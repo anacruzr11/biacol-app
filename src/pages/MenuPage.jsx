@@ -8,9 +8,7 @@ const MenuPage = () => {
     <div className="seccion1">
       <div className="row">
         <div className="col">
-        <div className="col platos">
-          <h6>Entradas</h6>
-        </div>
+          <h5 className="platos">Entradas</h5>
           <li className="list-group-item">Patacón con hogao</li>
           <li className="list-group-item">Mini chorizo con melao</li>
           <li className="list-group-item">Chicharrones de cuajada</li>
@@ -22,9 +20,7 @@ const MenuPage = () => {
           <li className="list-group-item">Aros de cebolla</li>
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Res</h6>
-        </div>
+          <h5 className="platos">Res</h5>
           <li className="list-group-item">Cola sudada</li>
           <li className="list-group-item">Churrasco</li>
           <li className="list-group-item">Lomo en salsa</li>
@@ -37,9 +33,7 @@ const MenuPage = () => {
           <li className="list-group-item">Bandeja paisa</li>
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Cerdo</h6>
-        </div> 
+          <h5 className="platos">Cerdo</h5>
           <li className="list-group-item">Chuleta asada</li>
           <li className="list-group-item">Chuleta apanada</li>
           <li className="list-group-item">Costillas BBQ</li>
@@ -51,25 +45,21 @@ const MenuPage = () => {
           <li className="list-group-item">Lechona</li>                 
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Pollo</h6>
-        </div> 
+          <h5 className="platos">Pollo</h5>
           <li className="list-group-item">Pechuga gratinada</li>
           <li className="list-group-item">Pollo sudado</li>
           <li className="list-group-item">Arroz con pollo</li>
           <li className="list-group-item">Pollo a la criolla</li>
           <li className="list-group-item">Pollo asado</li>
           <li className="list-group-item">Pechuga con salsa de queso</li>
-          <li className="list-group-item">Pechuga rellena de jamón y queso</li>
+          <li className="list-group-item">Pechuga rellena</li>
         </div>          
       </div> 
     </div>         
     <div className="seccion2">
       <div className="row">
         <div className="col">
-        <div className="col platos">
-          <h6>Sopas</h6>
-        </div>
+          <h5 className="platos">Sopas</h5>
           <li className="list-group-item">Sancocho de gallina</li>
           <li className="list-group-item">Sancocho de pescado</li>
           <li className="list-group-item">Sancocho de trifásico</li>
@@ -82,9 +72,7 @@ const MenuPage = () => {
           <li className="list-group-item">Caldo de raíz</li>                  
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Postres</h6>
-        </div>
+          <h5 className="platos">Postres</h5>
           <li className="list-group-item">Crepe de Nutella</li>
           <li className="list-group-item">Brownie con helado</li>
           <li className="list-group-item">Torta de tres leches</li>
@@ -96,9 +84,7 @@ const MenuPage = () => {
           <li className="list-group-item">Tiramisú</li>
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Bebidas sin alcohol</h6>
-        </div>
+          <h5 className="platos">Bebidas sin alcohol</h5>
           <li className="list-group-item">Jugo natural en agua</li>
           <li className="list-group-item">Jugo natural en leche</li>
           <li className="list-group-item">Jugo hit</li>
@@ -110,9 +96,7 @@ const MenuPage = () => {
           <li className="list-group-item">Bretaña</li>               
         </div>
         <div className="col">
-        <div className="col platos">
-          <h6>Bebidas con alcohol</h6>
-        </div> 
+          <h5 className="platos">Bebidas con alcohol</h5>
           <li className="list-group-item">Cerveza Poker</li>
           <li className="list-group-item">Cerveza Club Colombia</li>
           <li className="list-group-item">Cerveza Andina</li>
@@ -126,19 +110,19 @@ const MenuPage = () => {
     </div>  
   </div>
   <div className="image col-6">
-   <h3 className='titulo1 text-center'>Reserva con nosotros</h3>
+   <h1 className='titulo1 text-center'>Reserva con nosotros</h1>
     <div className="reserInfo"> 
       <div className="texts col-6">        
         <h5>Déjanos tus datos y pronto estaremos comunicándonos contigo para completar tu reserva. También puedes llamarnos o contactarnos por correo.</h5>
       </div>
       <div className="contact-info col-3">
         <div className="phone">
-          <p>+57 (310) 011-0498</p>
+          <h5>+57 (310) 011-0498</h5>
         </div>
         <div className="email">
-          <p>contact-info@biacol.com</p>
+          <h5>contact-info@biacol.com</h5>
         </div>
-        <p>Carrera 4 #11c-98</p>
+        <h5>Carrera 4 #11c-98</h5>
       </div>                    
     </div>                   
   </div>
