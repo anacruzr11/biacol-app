@@ -1,10 +1,12 @@
+import style from '../styles/Reservas.css'
+
 const ReservasPage = () => {
   return (
     <>
       <header className="text-center">
         <h1 className='titulo'>Reserva con nosotros</h1>
       </header>
-      <main className="row">
+      <main className="row datos">
         <div className="form col-sm-7">
           <div className="mb-3">
              <label for="nombreInput" class="form-label">Nombre completo</label>
@@ -27,11 +29,14 @@ const ReservasPage = () => {
           </div>
         </div>
       </main>
-      <footer className="footer">
-       <div className="footertext">
-        <p>© 2023 Ana María Cruz Rodríguez</p>
-       </div>
-      </footer>
+      <div className="img col-6">
+        <h1 className='titulo1 text-center'>Reserva con nosotros</h1>
+      <div className="reserInfo"> 
+       <div className="texts col-6">        
+         <h5>Déjanos tus datos y pronto estaremos comunicándonos contigo para completar tu reserva. También puedes llamarnos o contactarnos por correo.</h5>
+       </div>         
+       </div>                   
+      </div>
     </>
   );
 };

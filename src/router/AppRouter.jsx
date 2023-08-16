@@ -11,6 +11,8 @@ import HomePage from "../pages/HomePage";
 import ReservasPage from "../pages/ReservasPage";
 import MenuPage from "../pages/MenuPage";
 
+import Footer from "../components/Footer";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -23,6 +25,7 @@ const AppRouter = () => {
           <Route path="/*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 };
