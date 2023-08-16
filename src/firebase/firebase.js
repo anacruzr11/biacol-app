@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore'
 
+import { initializeApp } from "firebase/app";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBimtElOkiiioA_bfN-LDMsJm-yjj6vS5Q",
   authDomain: "reservas-app-8e36b.firebaseapp.com",
@@ -11,5 +13,6 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+const db = getFirestore(app)
 
 export {db}
